@@ -1,4 +1,3 @@
-
 public class ExceedsMaximumCapacityException extends Exception {
 
         public ExceedsMaximumCapacityException(String message) {
