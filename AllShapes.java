@@ -11,7 +11,7 @@ public class AllShapes {
 
     public void addShape(Shape shape) throws ExceedsMaximumCapacityException {
 
-        if (shapes.size() > 50) {
+        if (shapes.size() >= 50) {
         throw new ExceedsMaximumCapacityException("List is full. Cannot add more shapes.");
         }       
         shapes.add(shape);
