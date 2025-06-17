@@ -1,5 +1,9 @@
 public class ExceedsMaximumCapacityException extends Exception {
 
+        public ExceedsMaximumCapacityException() {
+        super();
+    }
+        
         public ExceedsMaximumCapacityException(String message) {
         super(message);
     }
